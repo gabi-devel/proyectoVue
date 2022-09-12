@@ -4,10 +4,10 @@ import Sidebar from './components/Sidebar.vue'
 </script>
 
 <template>
+
   <HeaderNav />
 
-  
-  
+
   <Sidebar />
 
 </template>
