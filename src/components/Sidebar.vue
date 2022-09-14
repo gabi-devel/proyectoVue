@@ -19,10 +19,19 @@
 .sidebarContainer {
     display: flex;
     justify-content: center;
-    width: 130px;
+    width: 200px;
     height: 100vh;
     background-color: #212529;
 }
+
+@media(max-width:900px){
+    .sidebarContainer{
+        display:none;
+    }
+}
+
+
+
 /* 
 @media (max-width:768px){
     .sidebarContainer{
