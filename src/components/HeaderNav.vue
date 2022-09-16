@@ -33,14 +33,9 @@
         display:flex;
         align-items: center;
         justify-content: center;
-<<<<<<< HEAD
         width: 220px;
         min-width: 130px;
         
-=======
-        width: 200px;
-        /*border: solid 1px red;*/
->>>>>>> fe8df72354d368ba8053528d10c0ad2db2e0c8ec
     }
 
     .logo{

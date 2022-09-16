@@ -24,28 +24,14 @@
     color: #ffffff80;
 }
 .sidebarContainer {
-<<<<<<< HEAD
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
-    width: 220px;
-=======
+
     display: flex;
     justify-content: center;
     width: 200px;
->>>>>>> fe8df72354d368ba8053528d10c0ad2db2e0c8ec
     height: 100vh;
     background-color: #212529;
     padding: 18px 10px;
 }
-
-@media(max-width:900px){
-    .sidebarContainer{
-        display:none;
-    }
-}
-
-
 
 /* 
 @media (max-width:768px){
