@@ -25,7 +25,7 @@
         display: flex;
         justify-content: space-around;
         width: 100%;
-        height: 60px;
+        height: 100px;
         background-color: #1aa4a8;
         
     }
@@ -33,14 +33,19 @@
         display:flex;
         align-items: center;
         justify-content: center;
+<<<<<<< HEAD
         width: 220px;
         min-width: 130px;
         
+=======
+        width: 200px;
+        /*border: solid 1px red;*/
+>>>>>>> fe8df72354d368ba8053528d10c0ad2db2e0c8ec
     }
 
     .logo{
         display: flex;
-        width:60px;
+        width:80px;
         margin-left: -10px;
     }
 
