@@ -1,16 +1,17 @@
-<script>
-import ResultadoBusqueda from "./ResultadoBusqueda.vue";
+<script setup>
+import ResultadoBusqueda from './ResultadoBusqueda.vue';
+
 </script>
 
 <template>
   <div class="mainContainer">
     <!-- <span class="logoMain">REG MED</span> -->
-
     <ResultadoBusqueda />
+
   </div>
 </template>
 
-<style>
+<style scope>
 .mainContainer {
   display: flex;
   justify-content: center;
