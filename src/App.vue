@@ -1,6 +1,7 @@
 <script setup>
 import HeaderNav from './components/HeaderNav.vue'
 import Sidebar from './components/Sidebar.vue'
+import MainComponent from './components/MainComponent.vue';
 
 </script>
 
@@ -22,5 +23,6 @@ import Sidebar from './components/Sidebar.vue'
     display:flex;
     flex-direction: row;
   }
+
 
 </style>

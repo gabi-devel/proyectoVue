@@ -4,14 +4,11 @@
 
 <template>
     <div class="sidebarContainer">
-        <form action="#" method="post">
+        <form class="formBuscador" action="#" method="post">
             <label class="label_paciente">DNI paciente: </label>
             <input class="inputBuscador" type="text" name="buscador" id="buscadorSideBar">
-
             <button class="btnBuscador" type="submit">Buscar</button>
-            <button class="btnBuscador" type="submit">Borrar</button>
-            <label class="label_paciente">Acciones </label>
-            <button class="btnBuscador2" type="submit">Agregar Paciente</button>
+            <button class="btnAgregar" type="submit">Agregar Paciente</button>
         </form>
 
 
@@ -19,16 +16,13 @@
 </template>
 
 <style scoped>
-.label_paciente {
-    margin-top: 20px;
-    color: #ffffff80;
-}
+
 .sidebarContainer {
 
     display: flex;
     justify-content: center;
-    width: 200px;
-    height: 100vh;
+    width: 250px;
+    height: 90vh;
     background-color: #212529;
     padding: 18px 10px;
 }
@@ -40,25 +34,37 @@
     }
 } */
 
-.inputBuscador{
-    width:60%;
-    margin: auto;
-    margin-top: 20px;
-    font-size: smaller;
+.formBuscador{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.btnBuscador{
-    width: 40%;
-    margin: auto;
-    margin: 10px 2px;
-    display: inline-block;
-    font-size: 0.7em;
+.label_paciente {
+    display:flex;
+    color: #ffffff80;
 }
-.btnBuscador2{
-    margin: auto;
-    margin: 10px 2px;
+
+.inputBuscador{
+    display: flex;
+    width:80%;      
+    margin-top: 10px;
+    font-size: medium;
+}
+
+
+
+.btnBuscador{
+    display: flex;
+    width: 40%; 
+    margin: 20px 2px;
+    display: inline-block;
+    font-size: 1em;
+}
+.btnAgregar{
+    display: flex;
     display: block;
-    font-size: 0.7em;
+    font-size: 1em;
 }
 
 

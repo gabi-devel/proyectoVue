@@ -25,7 +25,7 @@
         display: flex;
         justify-content: space-around;
         width: 100%;
-        height: 100px;
+        height: 10vh;
         background-color: #1aa4a8;
         
     }
@@ -33,7 +33,7 @@
         display:flex;
         align-items: center;
         justify-content: center;
-        width: 220px;
+        width: 250px;
         min-width: 130px;
         
     }
