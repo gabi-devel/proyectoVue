@@ -11,18 +11,14 @@ import MainComponent from './components/MainComponent.vue';
 
   <div class="side_main">
     <Sidebar />
-    <MainComponent/>
+    <MainComponent />
   </div>
 
 </template>
 
 <style scoped>
-
-
-  .side_main{
-    display:flex;
-    flex-direction: row;
-  }
-
-
+.side_main {
+  display: flex;
+  flex-direction: row;
+}
 </style>
